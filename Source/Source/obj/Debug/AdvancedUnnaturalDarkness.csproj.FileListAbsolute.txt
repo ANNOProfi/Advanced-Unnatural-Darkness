@@ -1,0 +1,7 @@
+D:\ANNOP\Steam\steamapps\common\RimWorld\Mods\Advanced Unnatural Darkness\1.5\Assemblies\AdvancedUnnaturalDarkness.dll
+D:\ANNOP\Steam\steamapps\common\RimWorld\Mods\Advanced Unnatural Darkness\Source\Source\obj\Debug\AdvancedUnnaturalDarkness.csproj.AssemblyReference.cache
+D:\ANNOP\Steam\steamapps\common\RimWorld\Mods\Advanced Unnatural Darkness\Source\Source\obj\Debug\AdvancedUnnaturalDarkness.GeneratedMSBuildEditorConfig.editorconfig
+D:\ANNOP\Steam\steamapps\common\RimWorld\Mods\Advanced Unnatural Darkness\Source\Source\obj\Debug\AdvancedUnnaturalDarkness.AssemblyInfoInputs.cache
+D:\ANNOP\Steam\steamapps\common\RimWorld\Mods\Advanced Unnatural Darkness\Source\Source\obj\Debug\AdvancedUnnaturalDarkness.AssemblyInfo.cs
+D:\ANNOP\Steam\steamapps\common\RimWorld\Mods\Advanced Unnatural Darkness\Source\Source\obj\Debug\AdvancedUnnaturalDarkness.csproj.CoreCompileInputs.cache
+D:\ANNOP\Steam\steamapps\common\RimWorld\Mods\Advanced Unnatural Darkness\Source\Source\obj\Debug\AdvancedUnnaturalDarkness.dll

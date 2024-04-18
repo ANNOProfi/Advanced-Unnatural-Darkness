@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<LanguageData>
+    <AUD.Settings.InfiniteUD>Toggle infinite darkness</AUD.Settings.InfiniteUD>
+    <AUD.Settings.InfiniteUDDesc>Toggle, if the event will disappear on it's own. If toggled on, you will have to destroy the noctoliths.</AUD.Settings.InfiniteUDDesc>
+
+    <AUD.Settings.MinDuration>Minimum Duration: {0} days  (Default: 6)</AUD.Settings.MinDuration>
+    <AUD.Settings.MinDurationDesc>Set the minimum duration, in days, that the event can last, if infinite darkness is not enabled.</AUD.Settings.MinDurationDesc>
+
+    <AUD.Settings.MaxDuration>Maximum Duration: {0} days  (Default: 8)</AUD.Settings.MaxDuration>
+    <AUD.Settings.MaxDurationDesc>Set the maximum duration, in days, that the event can last, if infinite darkness is not enabled.</AUD.Settings.MaxDurationDesc>
+</LanguageData>
