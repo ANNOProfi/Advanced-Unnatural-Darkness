@@ -12,9 +12,13 @@ namespace AUD
 
         private string maxDurationBuffer = "";
 
+        private string maxCountBuffer = "";
+
         private int minDuration = 6;
 
         private int maxDuration = 8;
+
+        private int maxCount = 3;
 
         private bool initialised = false;
 
@@ -28,6 +32,16 @@ namespace AUD
             Listing_Standard listing_Standard = new Listing_Standard();
 
             listing_Standard.Begin(inRect);
+
+            listing_Standard.Gap(10f);
+            listing_Standard.Label("AUD.Settings.MaxCount".Translate(maxCount), -1, "AUD.Settings.MaxCountDesc".Translate());
+            listing_Standard.IntEntry(ref maxCount, ref maxCountBuffer);
+            if(!initialised)
+            {
+                maxCount = 3;
+            }
+            settings.maxCount = maxCount;
+            maxCountBuffer = maxCount.ToString();
 
             listing_Standard.Gap(10f);
             listing_Standard.Label("AUD.Settings.MinDuration".Translate(minDuration), -1, "AUD.Settings.MinDurationDesc".Translate());
@@ -44,7 +58,7 @@ namespace AUD
             listing_Standard.IntEntry(ref maxDuration, ref maxDurationBuffer);
             if(!initialised)
             {
-                minDuration = 8;
+                maxDuration = 8;
             }
             else
             {

@@ -8,7 +8,7 @@ namespace AUD
 {
     public class QuestNode_Root_AdvancedUnnaturalDarkness : QuestNode
     {
-        public const int MaxNoctoliths = 3;
+        public int MaxNoctoliths = AUD_Utilities.Settings.maxCount;
 
         private static readonly FloatRange InitialPhaseDurationDaysRange = new FloatRange(0.5f, 0.75f);
 
@@ -75,7 +75,7 @@ namespace AUD
             quest.Letter(LetterDefOf.ThreatBig, mainPhaseBeganSignal, null, null, null, useColonistsFromCaravanArg: false, QuestPart.SignalListenMode.OngoingOnly, null, filterDeadPawnsFromLookTargets: false, "[mainPhaseLetterText]", null, "[mainPhaseLetterLabel]");
             List<CellRect> list2 = new List<CellRect>();
             LargeBuildingSpawnParms parms = NoctolithSpawnParms.ForThing(ThingDefOf.Noctolith);
-            for (int i = 0; i < 3; i++)
+            for (int i = 0; i < MaxNoctoliths; i++)
             {
                 if (!LargeBuildingCellFinder.TryFindCell(out var cell, map, parms, list2))
                 {

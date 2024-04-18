@@ -9,4 +9,7 @@
 
     <AUD.Settings.MaxDuration>Maximum Duration: {0} days  (Default: 8)</AUD.Settings.MaxDuration>
     <AUD.Settings.MaxDurationDesc>Set the maximum duration, in days, that the event can last, if infinite darkness is not enabled.</AUD.Settings.MaxDurationDesc>
+
+    <AUD.Settings.MaxCount>Maximum amount of noctoliths: {0}  (Default: 3)</AUD.Settings.MaxCount>
+    <AUD.Settings.MaxCountDesc>Set the maximum of noctoliths that can spawn.</AUD.Settings.MaxCountDesc>
 </LanguageData>
