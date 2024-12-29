@@ -88,7 +88,7 @@ namespace AUD
                 list.Add(thing);
                 quest.SpawnSkyfaller(map, ThingDefOf.NoctolithIncoming, Gen.YieldSingle(thing), null, cell, mainPhaseBeganSignal);
             }
-            quest.AddPart(new QuestPart_Noctoliths(map.Parent, list, points, inSignalNoctolithDamaged, inSignalNoctolithKilled));
+            quest.AddPart(new AUD.QuestPart_AdvancedNoctoliths(map.Parent, list, points, inSignalNoctolithDamaged, inSignalNoctolithKilled));
             quest.AddPart(new QuestPart_RandomWaves(mainPhaseBeganSignal, text, 36f, 36f));
             quest.SignalPass(delegate
             {
